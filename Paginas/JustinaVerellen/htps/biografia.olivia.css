@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(151, 171, 212);
+    margin: 0%;
+}
+
+h1{ 
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(37, 41, 75);
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30;
+    color: rgb(67, 81, 141);
+}
+.lista-imagen-taylor > div > img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h3{ 
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 130%;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    padding: 25px;
+}
+
+.contenedor{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+    color: rgb(80, 156, 255);
+  
+
+}
+
+.contenedor > div > ol > li {
+    text-decoration:underline;
+}
+
+.famosos > div, .populares > div {
+    margin: 0%; /* Ajusta el margen para dar espacio entre los divs */
+   display: flex;
+}
+
+.populares > div > ol > li, .famosos > div > ol > li{
+    text-decoration: underline;
+    color: rgb(38, 27, 125);
+}
+
+.populares > div > ol, .famosos > div > ol{
+    color:rgb(38, 27, 125);
+}
+.populares {
+    font-weight: 70%;
+    text-align: center;
+    width: 65%;
+    padding: 25px;
+}
+.famosos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circulo {
+    width: 380px; /* Aumenta el tamaño del círculo */
+    height: 380px;
+    background-color: rgb(197, 194, 255);
+    border-radius: 100px;
+    padding: 15px; /* Añade relleno para que el contenido no toque los bordes */
+}
+
+.circulo1 {
+    width: 430px; /* Aumenta el tamaño del círculo */
+    background-color: rgb(197, 194, 255);;
+    border-radius: 100px;
+    padding: 15px;
+    /* Añade relleno para que el contenido no toque los bordes */
+}
+
+.populares { 
+    font-weight: 70%;
+    text-align: center;
+    width: 85%;
+    padding: 25px;
+}
+
+.taylor.chiquita {
+    height: 50px;
+    width: 50px;
+}
+
+.taylor-chiquita {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura del contenedor */
+
+}
+
+
+
+
+
+
+
+
+

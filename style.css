@@ -1,4 +1,94 @@
-body{
+body {
     color: aliceblue;
-    background-color: black;
+    background-color: rgb(36 25 63);
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.main {
+    width: 1366px;
+    height: auto;
+    background-image: url(./img/CCPBackground.png);
+    background-repeat: repeat-y;
+    margin: 0px;
+    padding-top: 20px;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(55 35 96);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: rgb(109 69 187);
+    background-image: linear-gradient(rgb(109 69 187), rgb(36 25 63));
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.title {
+    font-size: xx-large;
+    width: 60%;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Estilos generales de la tarjeta */
+.card {
+    width: 400px;
+    /* Ancho deseado de la tarjeta */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5 5 10px rgba(0, 0, 0);
+    /* Sombra ligera */
+    margin: 10px;
+}
+
+/* Estilos de la imagen */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos del texto */
+.card-text {
+    padding: 15px;
+    background-color:rgb(55 35 96);
+    /* Color de fondo para el texto */
+    font-size: 18px;
+    /* Tamaño de fuente */
+    text-align: center;
+    /* Centrado del texto */
+    font-weight: bold;
+    /* Negrita */
+}
+
+/* Estilos del enlace */
+.card-link {
+    text-decoration: none;
+    /* Sin subrayado */
+    color: inherit;
+    /* Heredar color del texto */
+}
+
+/* Efecto al pasar el ratón sobre la tarjeta */
+.card:hover {
+    transform: translateY(-5px);
+    /* Efecto de levantamiento */
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
 }

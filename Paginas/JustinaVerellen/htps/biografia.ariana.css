@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(170, 170, 170);
+    margin: 0%;
+}
+
+h1{ 
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(41, 35, 45);
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30;
+    color:  rgb(225, 225, 225)
+}
+.lista-imagen-taylor > div > img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h3{ 
+    color: rgb(225, 225, 225);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 130%;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    padding: 25px;
+}
+
+.contenedor{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    color: rgb(189, 189, 189);
+}
+
+.contenedor > div > ol > li {
+    text-decoration:underline;
+}
+
+.famosos > div, .populares > div {
+    margin: 0%; /* Ajusta el margen para dar espacio entre los divs */
+   display:block;
+}
+
+.populares > div > ol > li, .famosos > div > ol > li{
+    text-decoration: underline;
+}
+
+.populares {
+    font-weight: 70%;
+    text-align: center;
+    width: 65%;
+    padding: 25px;
+}
+.famosos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circulo {
+    width: 380px; /* Aumenta el tamaño del círculo */
+    height: 380px;
+    background-color: rgb(86, 86, 86);
+    border-radius: 100px;
+    padding: 15px; /* Añade relleno para que el contenido no toque los bordes */
+}
+
+.circulo1 {
+    width: 430px; /* Aumenta el tamaño del círculo */
+    background-color:  rgb(86, 86, 86);
+    border-radius: 100px;
+    padding: 15px;
+    /* Añade relleno para que el contenido no toque los bordes */
+}
+
+.populares { 
+    font-weight: 70%;
+    text-align: center;
+    width: 85%;
+    padding: 25px;
+}
+
+.taylor.chiquita {
+    height: 50px;
+    width: 50px;
+}
+

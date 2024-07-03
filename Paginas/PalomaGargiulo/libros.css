@@ -1,0 +1,147 @@
+
+.principal .libro{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(153, 173, 173);
+    border-style: solid;
+    border-color:  rgb(153, 173, 173);
+    border-radius: 5px;
+    flex-direction: column;
+}
+.principal h1{
+    font-size: 100px;
+      color: azure;
+      background-color: rgb(102, 31, 184);
+      padding: 50px 50px;
+      text-align: center;
+      font-family: cooper black;
+}
+.principal h2{
+    font-size: medium;
+    color: white;
+    text-align: center;
+    font-family: Perpetua Titling MT;
+}
+.principal .libros{
+    display: flex;
+    justify-content: space-around;
+}
+.fondo1{
+    background-color: rgb(3, 3, 54);
+}
+.principal .portada{
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+#terror{
+    background-image: url('pterror.jpg');
+}
+#romance{
+    background-image: url('promance1.jpg');
+}
+#fantasia{
+    background-image: url('pfantasia2.jpg');
+}
+.terror h1{
+    font-size: 100px;
+    color: azure;
+    background-color: red;
+    padding: 50px 50px;
+    text-align: center;
+}
+.lterror{
+    box-shadow: 2px 2px 5px white;
+    border-color:  red;
+    background-color: rgb(44, 38, 39); 
+}
+.terror .portada{
+    width: 200px;
+    height: 100%;
+    margin-right: 40px;
+    background-image: url('resplandor4.jpg');
+}
+.terror ol{
+    color: white;
+    text-shadow: 2px 2px 5px red;
+}
+.fondo2{
+    background-color: black;
+}
+.lromance{
+    box-shadow: 2px 2px 5px white;
+    border-color:  rgb(214, 67, 92);
+    background-color: rgb(116, 109, 110);
+}
+.fondo3{
+    background-color: violet;
+}
+.romance h1{
+    font-size: 100px;
+    color: azure;
+    background-color: rgb(214, 67, 92);
+    padding: 50px 50px;
+    text-align: center;
+}
+.romance .portada{
+    width: 200px;
+    height: 100%;
+    margin-right: 40px;
+    background-image: url('easn2.jpg');
+}
+.romance ol{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(241, 92, 117);
+}
+.fantasia h1{
+    font-size: 100px;
+    color: azure;
+    background-color: rgb(39, 153, 68);
+    padding: 50px 50px;
+    text-align: center;
+}
+.lfantasia{
+    box-shadow: 2px 2px 5px white;
+    border-color: rgb(56, 146, 83);
+    background-color: rgb(150, 148, 149);
+}
+
+.fantasia .portada{
+    width: 200px;
+    height: 100%;
+    margin-right: 40px;
+    background-image: url('ads4.jpg');
+}
+.fantasia ol{
+    color: white;
+    text-shadow: 2px 2px 5px  rgb(56, 146, 83);
+}
+.fondo4{
+    background-color: rgb(145, 235, 168);
+}
+.elementos{
+    display: flex;
+    height: 300px;
+    width: auto;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+ol{
+    font-size: 50px;
+    font-family: verdana;
+}
+.volver{
+    justify-content: center;
+    background-color:  rgb(102, 101, 101);
+    color: black;
+    display: flex;
+    height:50px;
+    width: 15%;
+    border-style: solid;
+    margin: auto;
+    border-color: rgb(102, 101, 101);
+    align-items: center;
+    margin-bottom: 60px
+}
